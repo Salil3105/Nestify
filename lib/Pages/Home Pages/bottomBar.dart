@@ -1,6 +1,5 @@
 import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nestify/Pages/Home%20Pages/home.dart';
 
 class BottomBar extends StatelessWidget {
@@ -19,7 +18,6 @@ class BottomBar extends StatelessWidget {
 
 class BottomBarPage extends StatefulWidget {
   const BottomBarPage({Key? key}) : super(key: key);
-
   @override
   State<BottomBarPage> createState() => _BottomBarPageState();
 }
