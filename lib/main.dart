@@ -7,7 +7,6 @@ import 'package:nestify/Pages/Home%20Pages/home.dart';
 
 // Pages...
 
-
 void main() {
   runApp(
     GetMaterialApp(
