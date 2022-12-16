@@ -14,15 +14,6 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        backgroundColor: Colors.blueAccent,
-        title: Text(
-          "Home",
-          style: GoogleFonts.aBeeZee(
-              fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
-        ),
-      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -47,8 +38,10 @@ class _HomeState extends State<Home> {
                       //   border: Border.all(width: 3, color: Colors.redAccent),
                       // ),
 
-                      child: Image.asset('./assets/images/back_home_1.png',
-                          fit: BoxFit.fill),
+                      child: Image.asset(
+                        '',
+                        fit: BoxFit.fill,
+                      ),
                     ),
                   ),
                   Positioned(
@@ -129,20 +122,20 @@ class _HomeState extends State<Home> {
                                       height: 80,
                                       width: 80,
                                       decoration: BoxDecoration(
-                                        // border: Border.all(
-                                        //   width: 1.0,
-                                        //   color: Colors.blueAccent,
-                                        // ),
-                                        borderRadius: BorderRadius.circular(25),
-                                        boxShadow: [
-                                          BoxShadow(
-                                            color: Colors.black12,
-                                            blurRadius: 20,
-                                          )
-                                        ]
-                                      ),
+                                          // border: Border.all(
+                                          //   width: 1.0,
+                                          //   color: Colors.blueAccent,
+                                          // ),
+                                          borderRadius:
+                                              BorderRadius.circular(25),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black12,
+                                              blurRadius: 20,
+                                            )
+                                          ]),
                                       child: Image.asset(
-                                        './assets/images/furniture.png',
+                                        './assets/images/',
                                         fit: BoxFit.fill,
                                       ),
                                     ),
@@ -177,20 +170,20 @@ class _HomeState extends State<Home> {
                                       height: 80,
                                       width: 80,
                                       decoration: BoxDecoration(
-                                        // border: Border.all(
-                                        //   width: 1.0,
-                                        //   color: Colors.blueAccent,
-                                        // ),
-                                        borderRadius: BorderRadius.circular(25),
-                                        boxShadow: [
-                                          BoxShadow(
-                                            color: Colors.black12,
-                                            blurRadius: 20,
-                                          )
-                                        ]
-                                      ),
+                                          // border: Border.all(
+                                          //   width: 1.0,
+                                          //   color: Colors.blueAccent,
+                                          // ),
+                                          borderRadius:
+                                              BorderRadius.circular(25),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black12,
+                                              blurRadius: 20,
+                                            )
+                                          ]),
                                       child: Image.asset(
-                                        './assets/images/flat_house.png',
+                                        './assets/images/',
                                         fit: BoxFit.fill,
                                       ),
                                     ),
@@ -224,20 +217,20 @@ class _HomeState extends State<Home> {
                                       height: 80,
                                       width: 80,
                                       decoration: BoxDecoration(
-                                        // border: Border.all(
-                                        //   width: 1.0,
-                                        //   color: Colors.blueAccent,
-                                        // ),
-                                        borderRadius: BorderRadius.circular(25),
-                                        boxShadow: [
-                                          BoxShadow(
-                                            color: Colors.black12,
-                                            blurRadius: 20,
-                                          )
-                                        ]
-                                      ),
+                                          // border: Border.all(
+                                          //   width: 1.0,
+                                          //   color: Colors.blueAccent,
+                                          // ),
+                                          borderRadius:
+                                              BorderRadius.circular(25),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black12,
+                                              blurRadius: 20,
+                                            )
+                                          ]),
                                       child: Image.asset(
-                                        './assets/images/roomie.png',
+                                        './assets/images/',
                                         fit: BoxFit.fill,
                                       ),
                                     ),
@@ -271,20 +264,20 @@ class _HomeState extends State<Home> {
                                       height: 80,
                                       width: 80,
                                       decoration: BoxDecoration(
-                                        // border: Border.all(
-                                        //   width: 1.0,
-                                        //   color: Colors.blueAccent,
-                                        // ),
-                                        borderRadius: BorderRadius.circular(25),
-                                        boxShadow: [
-                                          BoxShadow(
-                                            color: Colors.black12,
-                                            blurRadius: 20,
-                                          )
-                                        ]
-                                      ),
+                                          // border: Border.all(
+                                          //   width: 1.0,
+                                          //   color: Colors.blueAccent,
+                                          // ),
+                                          borderRadius:
+                                              BorderRadius.circular(25),
+                                          boxShadow: [
+                                            BoxShadow(
+                                              color: Colors.black12,
+                                              blurRadius: 20,
+                                            )
+                                          ]),
                                       child: Image.asset(
-                                        './assets/images/community.png',
+                                        './assets/images/',
                                         fit: BoxFit.fill,
                                       ),
                                     ),
@@ -311,68 +304,6 @@ class _HomeState extends State<Home> {
                             ],
                           ),
                         ),
-                        // Container(
-                        //   child: Column(
-                        //     children: [
-                        //       Container(
-                        //         padding: EdgeInsets.all(5),
-                        //         margin: EdgeInsets.all(10),
-                        //         height: 80,
-                        //         width: 80,
-                        //         decoration: BoxDecoration(
-                        //           border: Border.all(
-                        //             width: 1.0,
-                        //             color: Colors.blueAccent,
-                        //           ),
-                        //           borderRadius: BorderRadius.circular(50),
-                        //         ),
-                        //         child: Image.asset(
-                        //           './assets/images/flat_house.png',
-                        //           fit: BoxFit.fill,
-                        //         ),
-                        //       ),
-                        //       Container()
-                        //     ],
-                        //   ),
-                        // ),
-                        // Positioned(
-                        //   child: Container(
-                        //     padding: EdgeInsets.all(5),
-                        //     margin: EdgeInsets.all(10),
-                        //     height: 80,
-                        //     width: 80,
-                        //     decoration: BoxDecoration(
-                        //       border: Border.all(
-                        //         width: 1.0,
-                        //         color: Colors.blueAccent,
-                        //       ),
-                        //       borderRadius: BorderRadius.circular(50),
-                        //     ),
-                        //     child: Image.asset(
-                        //       './assets/images/roomie.png',
-                        //       fit: BoxFit.fill,
-                        //     ),
-                        //   ),
-                        // ),
-                        // Positioned(
-                        //   child: Container(
-                        //     padding: EdgeInsets.all(5),
-                        //     margin: EdgeInsets.all(10),
-                        //     height: 80,
-                        //     width: 80,
-                        //     decoration: BoxDecoration(
-                        //       border: Border.all(
-                        //         width: 1.0,
-                        //         color: Colors.blueAccent,
-                        //       ),
-                        //       borderRadius: BorderRadius.circular(50),
-                        //     ),
-                        //     child: Image.asset(
-                        //       './assets/images/community.png',
-                        //       fit: BoxFit.fill,
-                        //     ),
-                        //   ),
-                        // ),
                       ],
                     ),
                   ),
